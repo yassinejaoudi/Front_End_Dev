@@ -197,47 +197,52 @@ p {
 
 /* Section C : --> Academic Achievment */
 
-.resume{
-  display: block;
+.resume, .cover-sheet{
+  /* display: block; */
   position: relative;
-  width: 90%;
+  width: 98%;
+  height: 400px;
   background: rgba(69, 74, 124, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: grid;
-  grid-template-columns: 300px ;
+  grid-template-columns: 400px 1fr ;
   grid-gap: 10px;
   align-items: center;
   color:#333;
   font-weight: 100;
 }
 
+
 .albums {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   grid-gap: 20px;
 }
 
 .album {
   display: block;
   position: relative;
-  width: 90%;
+  width: 95%px;
   background: rgba(69, 74, 124, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 40px;
   display: grid;
   grid-template-columns: 300px ;
   grid-gap: 10px;
   align-items: center;
   color:#333;
   font-weight: 100;
+  /* justify-items: center; */
 }
 
-.album__artwork{
-  /* object-fit: cover; */
+.cover-sheet .container-img {
+  display: grid;
+  position: relative;
+  width:100%;
 }
-/*  */
-/* .overlay { */
+
+ /* .overlay { */
   /* position: absolute; */
   /* top: 0; */
   /* bottom: 0; */
@@ -249,18 +254,20 @@ p {
   /* transition: 0.5s ease-in; */
   /* background-color: #ffc60032; */
 /* } */
-/*  */
-/* .album:hover .overlay{ */
-  /* opacity: 1; */
-/* } */
-/*  */
-/* .text { */
-  /* color: black; */
-  /* font-size:  20px; */
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 30%; */
-/* } */
+
+.container-img:hover .overlay{
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size:  20px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  border: white;
+
+}
 
 
 /* Footer */
