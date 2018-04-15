@@ -68,6 +68,11 @@ p {
   /* padding-bottom: 0; */
 }
 
+#profile p {
+  color: #fff;
+  font-size: 17px;
+}
+
 #profile .content-wrap,
 #section-a .content-wrap{
   padding: 0 1.5em;
@@ -83,14 +88,19 @@ p {
   font-family: roboto;
 }
 
+#section-a p {
+  padding: 20px;
+  font-size: 20px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
 /* body { */
   /* background-color: #f0f0f0; */
   /* font-family: roboto; */
 /* } */
 .container {
-  width: 800px;
-  /* height:80%; */
+  width: 600px;
+  height:40%;
   margin: 120px auto 120px;
   background-color: #fff;
   padding: 0 20px 20px;
